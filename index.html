@@ -152,27 +152,42 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Windows下搭建hexo博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/12/test/">test</a>
+      <a class="article-title" href="/2020/08/12/Windows%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/">Windows下搭建hexo博客</a>
     </h1>
   
 
         
-        <a href="/2020/08/12/test/" class="archive-article-date">
-  	<time datetime="2020-08-12T07:23:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-12</time>
+        <a href="/2020/08/12/Windows%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2020-08-12T07:37:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-12</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>##第一章    安装node.js</p>
+<p>下载网址：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a><br>安装好后，在cmd中查看node和npm版本，验证是否安装完成。<br>node -v<br>npm -v<br>利用npm安装国内镜像源cnpm<br>npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a><br>同样也可以用 npm -v 查看是否安完成</p>
+<hr>
+<p>##第二章    利用cnpm全局安装hexo</p>
+<p>cnpm install -g hexo-cli<br>再用hexo -v验证</p>
+<hr>
+<p>##第三章    初始化hexo博客</p>
+<p>首先建立一个博客文件夹，如blog文件夹；<br>再初始化hexo博客<br>hexo init<br>初始化后，在本地启动博客<br>hexo s<br>命令行会有localhost:4000提示，即：在本地host4000端口启动<br>我们只需将ocalhost:4000复制至本地浏览器打开</p>
+<hr>
+<p>##第四章    创建第一篇博客<br>hexo n “我的第一篇博客文章”<br>创建的博客文件路径在：/blog/source/_posts<br>在命令行中用vim 打开我的第一篇博客文章.md<br>进行添加内容<br>退出路径到blog文件下，清理hexo文件<br>hexo clean<br>在重新生成hexo博客<br>hexo g<br>hexo s重新启动本地博客</p>
+<hr>
+<p>##第五章    将博客部署到远端<br>首先进去到自己的GitHub中，在新建仓库。注：仓库名必须为你的GitHubID.github.io<br>安装git插件，cnpm install –save hexo-deployer-git<br>用vim打开_config.yml<br>vim _config.yml<br>在末尾的deployment进行修改<br>type： git<br>repo： 你的github仓库地址<br>branch： master<br>hexo d 部署到远端<br>输入github账号和密码</p>
+<hr>
+<p>##参考文献</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?from=search&amp;seid=9664237399941720156">https://www.bilibili.com/video/BV1Yb411a7ty?from=search&amp;seid=9664237399941720156</a></p>
+
       
 
       
@@ -184,7 +199,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/08/12/test/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/08/12/Windows%E4%B8%8B%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
         </p>
       
 
