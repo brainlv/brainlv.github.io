@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>opencv-py 官网学习笔记：Getting Started with Images | Brainlv&#39;blogs</title>
+  <title>opencv-py 官网学习笔记：Getting Started with Videos | Brainlv&#39;blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="废话（哈哈，说点题外话）前面的OpenCv学习没有对opencv官网引起足够重视，今天去认真看了一下官网，感觉自己在前面的学习的方向出了问题。当然不是说前面在B站学习的时候up主不够优秀，只是对自己来说，官网的文档学习起来更放松，更能够去理解。也希望大家都能在自己的学习道路上找到适合自己的方法哦！！！加油  官网地址(opencv-python) https:&#x2F;&#x2F;docs.opencv.org&#x2F;m">
+  <meta name="description" content="第一章 读取摄像头视频">
 <meta property="og:type" content="article">
-<meta property="og:title" content="opencv-py 官网学习笔记：Getting Started with Images">
-<meta property="og:url" content="http://yoursite.com/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/index.html">
+<meta property="og:title" content="opencv-py 官网学习笔记：Getting Started with Videos">
+<meta property="og:url" content="http://yoursite.com/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Videos/index.html">
 <meta property="og:site_name" content="Brainlv&#39;blogs">
-<meta property="og:description" content="废话（哈哈，说点题外话）前面的OpenCv学习没有对opencv官网引起足够重视，今天去认真看了一下官网，感觉自己在前面的学习的方向出了问题。当然不是说前面在B站学习的时候up主不够优秀，只是对自己来说，官网的文档学习起来更放松，更能够去理解。也希望大家都能在自己的学习道路上找到适合自己的方法哦！！！加油  官网地址(opencv-python) https:&#x2F;&#x2F;docs.opencv.org&#x2F;m">
+<meta property="og:description" content="第一章 读取摄像头视频">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-16T07:11:28.000Z">
-<meta property="article:modified_time" content="2020-08-16T09:02:42.754Z">
+<meta property="article:published_time" content="2020-08-16T08:31:09.000Z">
+<meta property="article:modified_time" content="2020-08-16T09:02:53.237Z">
 <meta property="article:author" content="Brainlv">
 <meta name="twitter:card" content="summary">
   
@@ -161,35 +161,33 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-opencv-py-官网学习笔记：Getting-Started-with-Images" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-opencv-py-官网学习笔记：Getting-Started-with-Videos" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      opencv-py 官网学习笔记：Getting Started with Images
+      opencv-py 官网学习笔记：Getting Started with Videos
     </h1>
   
 
         
-        <a href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/" class="archive-article-date">
-  	<time datetime="2020-08-16T07:11:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-16</time>
+        <a href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Videos/" class="archive-article-date">
+  	<time datetime="2020-08-16T08:31:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-16</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="废话（哈哈，说点题外话）"><a href="#废话（哈哈，说点题外话）" class="headerlink" title="废话（哈哈，说点题外话）"></a>废话（哈哈，说点题外话）</h1><p>前面的OpenCv学习没有对opencv官网引起足够重视，今天去认真看了一下官网，感觉自己在前面的学习的方向出了问题。当然不是说前面在B站学习的时候up主不够优秀，只是对自己来说，官网的文档学习起来更放松，更能够去理解。也希望大家都能在自己的学习道路上找到适合自己的方法哦！！！加油</p>
-<hr>
-<h1 id="官网地址-opencv-python"><a href="#官网地址-opencv-python" class="headerlink" title="官网地址(opencv-python)"></a>官网地址(opencv-python)</h1><blockquote>
-<p><a target="_blank" rel="noopener" href="https://docs.opencv.org/master/d6/d00/tutorial_py_root.html">https://docs.opencv.org/master/d6/d00/tutorial_py_root.html</a></p>
-</blockquote>
-<hr>
-<h1 id="第一章-进入正题-读取图片和保存图片"><a href="#第一章-进入正题-读取图片和保存图片" class="headerlink" title="第一章 进入正题 读取图片和保存图片"></a>第一章 进入正题 读取图片和保存图片</h1><a id="more"></a>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import cv2 as cv</span><br><span class="line">import sys</span><br><span class="line">img &#x3D; cv.imread(cv.samples.findFile(&quot;1.png&quot;))#cv.imread()函数的调用使用第一个参数指定的文件路径加载图像。第二个参数是可选的，它指定我们想要图像的格式。</span><br><span class="line">#IMREAD_COLOR以BGR 8位格式加载图像。这是这里使用的默认值。</span><br><span class="line">#IMREAD_UNCHANGED照原样加载图像（包括Alpha通道（如果存在））</span><br><span class="line">#IMREAD_GRAYSCALE将图像作为一种强度加载</span><br><span class="line">if img is None:</span><br><span class="line">    sys.exit(&quot;Could not read the image.&quot;)</span><br><span class="line">cv.imshow(&quot;Display window&quot;, img)            #cv:imshow函数显示图像。第一个参数是窗口的标题，第二个参数是将显示的cv:Mat对象。</span><br><span class="line">k &#x3D; cv.waitKey(0)                           #cv:waitKey函数，该函数的唯一参数就是等待用户输入的时间（以毫秒）。零意味着永远等待。返回值是按下的键。</span><br><span class="line">if k &#x3D;&#x3D; ord(&quot;s&quot;):                           #如果按下的键是“ s”键，则将图像写入文件。为此，将调用cv:imwrite函数，该函数具有文件路径和cv:Mat对象作为参数。</span><br><span class="line">    cv.imwrite(&quot;starry_night.png&quot;, img)</span><br></pre></td></tr></table></figure>
-<p>读取图片后，再将读取到的图片进行保存</p>
+        <h1 id="第一章-读取摄像头视频"><a href="#第一章-读取摄像头视频" class="headerlink" title="第一章 读取摄像头视频"></a>第一章 读取摄像头视频</h1><a id="more"></a>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import cv2 as cv</span><br><span class="line">cap &#x3D; cv.VideoCapture(0)    #要捕获视频，您需要创建一个VideoCapture对象，它的参数可以是设备索引或视频文件的名称。设备索引仅仅是指定哪个摄像机的编号。通常，将连接一台摄像机（以我的情况为例）。所以我只是传递0（或-1）。您可以通过传递1来选择第二台摄像机，依此类推。之后，您可以逐帧捕获。但最后，不要忘记释放捕获。（一定记住！！！）。如果是读入的视频文件将通过视频播放的形式出现</span><br><span class="line">if not cap.isOpened():      #cap.isOpened（）方法检查它是否已初始化。</span><br><span class="line">    print(&quot;Cannot open camera&quot;)</span><br><span class="line">    exit()</span><br><span class="line">while True:</span><br><span class="line">    # Capture frame-by-frame</span><br><span class="line">    ret, frame &#x3D; cap.read() #cap.read()返回布尔值（True&#x2F; False）。如果正确读取该帧，它将为True</span><br><span class="line">    # if frame is read correctly ret is True</span><br><span class="line">    if not ret:</span><br><span class="line">        print(&quot;Can&#39;t receive frame (stream end?). Exiting ...&quot;)</span><br><span class="line">        break</span><br><span class="line">    # Our operations on the frame come here</span><br><span class="line">    gray &#x3D; cv.cvtColor(frame, cv.COLOR_BGR2GRAY)#cv.cvtColor()转换颜色</span><br><span class="line">    # Display the resulting frame</span><br><span class="line">    cv.imshow(&#39;frame&#39;, gray)</span><br><span class="line">    if cv.waitKey(1) &#x3D;&#x3D; ord(&#39;q&#39;):</span><br><span class="line">        break</span><br><span class="line">cap.release()</span><br><span class="line">cv.destroyAllWindows()</span><br></pre></td></tr></table></figure>
+<p>这是一个将摄像头视频读取出来之后，在进行灰色转换。</p>
+<h1 id="第二章-读取本地视频文件"><a href="#第二章-读取本地视频文件" class="headerlink" title="第二章 读取本地视频文件"></a>第二章 读取本地视频文件</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import cv2 as cv</span><br><span class="line">cap &#x3D; cv.VideoCapture(&#39;vtest.avi&#39;)</span><br><span class="line">while cap.isOpened():</span><br><span class="line">    ret, frame &#x3D; cap.read()</span><br><span class="line">    # if frame is read correctly ret is True</span><br><span class="line">    if not ret:</span><br><span class="line">        print(&quot;Can&#39;t receive frame (stream end?). Exiting ...&quot;)</span><br><span class="line">        break</span><br><span class="line">    gray &#x3D; cv.cvtColor(frame, cv.COLOR_BGR2GRAY)</span><br><span class="line">    cv.imshow(&#39;frame&#39;, gray)</span><br><span class="line">    if cv.waitKey(1) &#x3D;&#x3D; ord(&#39;q&#39;):</span><br><span class="line">        break</span><br><span class="line">cap.release()</span><br><span class="line">cv.destroyAllWindows()</span><br></pre></td></tr></table></figure>
+<p>这是读取本地视频文件，再将视频转换为灰色视频进行输出</p>
+<h1 id="第三章-保存视频"><a href="#第三章-保存视频" class="headerlink" title="第三章 保存视频"></a>第三章 保存视频</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import cv2 as cv</span><br><span class="line">cap &#x3D; cv.VideoCapture(0)</span><br><span class="line">#定义编解码器并创建VideoWriter对象</span><br><span class="line">fourcc &#x3D; cv.VideoWriter_fourcc(*&#39;XVID&#39;)#XVID这是编码格式</span><br><span class="line">out &#x3D; cv.VideoWriter(&#39;output.avi&#39;, fourcc, 20.0, (640,  480))</span><br><span class="line">while cap.isOpened():</span><br><span class="line">    ret, frame &#x3D; cap.read()</span><br><span class="line">    if not ret:</span><br><span class="line">        print(&quot;Can&#39;t receive frame (stream end?). Exiting ...&quot;)</span><br><span class="line">        break</span><br><span class="line">    #cv.flip()这是将摄像头中的视频进行翻转，https:&#x2F;&#x2F;docs.opencv.org&#x2F;master&#x2F;d2&#x2F;de8&#x2F;group__core__array.html#gaca7be533e3dac7feb70fc60635adf441</span><br><span class="line">    frame &#x3D; cv.flip(frame, 0)</span><br><span class="line">    # write the flipped frame</span><br><span class="line">    out.write(frame)</span><br><span class="line">    cv.imshow(&#39;frame&#39;, frame)</span><br><span class="line">    if cv.waitKey(1) &#x3D;&#x3D; ord(&#39;q&#39;):</span><br><span class="line">        break</span><br><span class="line"># 完成工作后释放所有内容</span><br><span class="line">cap.release()</span><br><span class="line">out.release()</span><br><span class="line">cv.destroyAllWindows()</span><br></pre></td></tr></table></figure>
+<p>这是将摄像头读取到的视频进行每一帧保存</p>
 
       
 
@@ -274,7 +272,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Videos/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -288,18 +286,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Videos/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          opencv-py 官网学习笔记：Getting Started with Videos
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/08/15/opencv-py%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E7%94%BB%E5%9B%BE%E5%87%BD%E6%95%B0/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">opencv_py学习笔记：画图函数</div>
+    <a href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">opencv-py 官网学习笔记：Getting Started with Images</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -326,7 +315,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BA%9F%E8%AF%9D%EF%BC%88%E5%93%88%E5%93%88%EF%BC%8C%E8%AF%B4%E7%82%B9%E9%A2%98%E5%A4%96%E8%AF%9D%EF%BC%89"><span class="toc-number">1.</span> <span class="toc-text">废话（哈哈，说点题外话）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%98%E7%BD%91%E5%9C%B0%E5%9D%80-opencv-python"><span class="toc-number">2.</span> <span class="toc-text">官网地址(opencv-python)</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%BF%9B%E5%85%A5%E6%AD%A3%E9%A2%98-%E8%AF%BB%E5%8F%96%E5%9B%BE%E7%89%87%E5%92%8C%E4%BF%9D%E5%AD%98%E5%9B%BE%E7%89%87"><span class="toc-number">3.</span> <span class="toc-text">第一章 进入正题 读取图片和保存图片</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%AF%BB%E5%8F%96%E6%91%84%E5%83%8F%E5%A4%B4%E8%A7%86%E9%A2%91"><span class="toc-number">1.</span> <span class="toc-text">第一章 读取摄像头视频</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E8%AF%BB%E5%8F%96%E6%9C%AC%E5%9C%B0%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">第二章 读取本地视频文件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0-%E4%BF%9D%E5%AD%98%E8%A7%86%E9%A2%91"><span class="toc-number">3.</span> <span class="toc-text">第三章 保存视频</span></a></li></ol>
                     </div>
                 </span>
             </div>
