@@ -159,6 +159,75 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-opencv-py-官网学习笔记：Getting-Started-with-Images" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/">opencv-py 官网学习笔记：Getting Started with Images</a>
+    </h1>
+  
+
+        
+        <a href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/" class="archive-article-date">
+  	<time datetime="2020-08-16T07:11:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="废话（哈哈，说点题外话）"><a href="#废话（哈哈，说点题外话）" class="headerlink" title="废话（哈哈，说点题外话）"></a>废话（哈哈，说点题外话）</h1><p>前面的OpenCv学习没有对opencv官网引起足够重视，今天去认真看了一下官网，感觉自己在前面的学习的方向出了问题。当然不是说前面在B站学习的时候up主不够优秀，只是对自己来说，官网的文档学习起来更放松，更能够去理解。也希望大家都能在自己的学习道路上找到适合自己的方法哦！！！加油</p>
+<hr>
+<h1 id="官网地址-opencv-python"><a href="#官网地址-opencv-python" class="headerlink" title="官网地址(opencv-python)"></a>官网地址(opencv-python)</h1><blockquote>
+<p><a target="_blank" rel="noopener" href="https://docs.opencv.org/master/d6/d00/tutorial_py_root.html">https://docs.opencv.org/master/d6/d00/tutorial_py_root.html</a></p>
+</blockquote>
+<hr>
+<h1 id="第一章-进入正题-读取图片和保存图片"><a href="#第一章-进入正题-读取图片和保存图片" class="headerlink" title="第一章 进入正题 读取图片和保存图片"></a>第一章 进入正题 读取图片和保存图片</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">import cv2 as cv</span><br><span class="line">import sys</span><br><span class="line">img &#x3D; cv.imread(cv.samples.findFile(&quot;1.png&quot;))#cv.imread()函数的调用使用第一个参数指定的文件路径加载图像。第二个参数是可选的，它指定我们想要图像的格式。</span><br><span class="line">#IMREAD_COLOR以BGR 8位格式加载图像。这是这里使用的默认值。</span><br><span class="line">#IMREAD_UNCHANGED照原样加载图像（包括Alpha通道（如果存在））</span><br><span class="line">#IMREAD_GRAYSCALE将图像作为一种强度加载</span><br><span class="line">if img is None:</span><br><span class="line">    sys.exit(&quot;Could not read the image.&quot;)</span><br><span class="line">cv.imshow(&quot;Display window&quot;, img)            #cv:imshow函数显示图像。第一个参数是窗口的标题，第二个参数是将显示的cv:Mat对象。</span><br><span class="line">k &#x3D; cv.waitKey(0)                           #cv:waitKey函数，该函数的唯一参数就是等待用户输入的时间（以毫秒）。零意味着永远等待。返回值是按下的键。</span><br><span class="line">if k &#x3D;&#x3D; ord(&quot;s&quot;):                           #如果按下的键是“ s”键，则将图像写入文件。为此，将调用cv:imwrite函数，该函数具有文件路径和cv:Mat对象作为参数。</span><br><span class="line">    cv.imwrite(&quot;starry_night.png&quot;, img)</span><br></pre></td></tr></table></figure>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/08/16/opencv-py-%E5%AE%98%E7%BD%91%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9AGetting-Started-with-Images/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-opencv-py学习笔记：画图函数" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
